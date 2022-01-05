@@ -3,12 +3,14 @@ from statsmodels._version import get_versions
 
 debug_warnings = False
 
+print( "Here we go this is a local version for statsmodels..2." )
 if debug_warnings:
     import warnings
 
     warnings.simplefilter("default")
     # use the following to raise an exception for debugging specific warnings
     # warnings.filterwarnings("error", message=".*integer.*")
+
 
 
 def test(extra_args=None, exit=False):

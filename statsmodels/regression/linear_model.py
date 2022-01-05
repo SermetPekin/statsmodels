@@ -2643,6 +2643,7 @@ class RegressionResults(base.LikelihoodModelResults):
             row_labels=row_labels, **kwargs)
 
     def summary(self, yname=None, xname=None, title=None, alpha=.05, slim=False):
+        print( "I came here to summarize")
         """
         Summarize the Regression Results.
 
